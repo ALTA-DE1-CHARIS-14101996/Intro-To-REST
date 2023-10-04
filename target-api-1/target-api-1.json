@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "91a90698-c165-489d-87e1-5ed0d37eea51",
+		"name": "target-api-1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192354"
+	},
+	"item": [
+		{
+			"name": "GET NEWS ABOUT TESLA",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2023-09-04&sortBy=publishedAt&apiKey=abef2526f7584c1b8d66750ebb801c4f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2023-09-04"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "abef2526f7584c1b8d66750ebb801c4f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET NEWS ABOUTJOKOWI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=Indonesia&from=2023-09-04&sortBy=publishedAt&apiKey=abef2526f7584c1b8d66750ebb801c4f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Indonesia"
+						},
+						{
+							"key": "from",
+							"value": "2023-09-04"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "abef2526f7584c1b8d66750ebb801c4f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOP HEADLINE NEWS DI INDONESIA KATEGORI BUSSINESS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=Id&category=business&apiKey=abef2526f7584c1b8d66750ebb801c4f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Id"
+						},
+						{
+							"key": "category",
+							"value": "business"
+						},
+						{
+							"key": "apiKey",
+							"value": "abef2526f7584c1b8d66750ebb801c4f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET TOP HEADLINE NEWS DI INDONESIA KATEGORI SPORT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=Id&category=sport&apiKey=abef2526f7584c1b8d66750ebb801c4f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Id"
+						},
+						{
+							"key": "category",
+							"value": "sport"
+						},
+						{
+							"key": "apiKey",
+							"value": "abef2526f7584c1b8d66750ebb801c4f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ARTICLE MENTIONING APPLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=apple&from=2023-10-03&to=2023-10-03&sortBy=popularity&apiKey=abef2526f7584c1b8d66750ebb801c4f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "from",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "to",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "abef2526f7584c1b8d66750ebb801c4f"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
